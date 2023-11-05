@@ -12,8 +12,7 @@ namespace Tyuiu.TretyakovDV.Sprint4.Task0.V22.Lib
     {
         public int GetSumOddArrEl(int[] array)
         {
-            array = new int[] { 9, 5, 7, 4, 5, 3, 7, 8, 9, 1 };
-
+            
             int s = 0;
             for (int i = 0; i < array.Length; i++)
             {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Tyuiu.TretyakovDV.Sprint4.Task1.V3.Lib;
-namespace Tyuiu.TretyakovDV.Sprint4.Task1.V3.Test
+using Tyuiu.TretyakovDV.Sprint4.Task2.V26.Lib;
+namespace Tyuiu.TretyakovDV.Sprint4.Task2.V26.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -10,9 +10,9 @@ namespace Tyuiu.TretyakovDV.Sprint4.Task1.V3.Test
         public void ValidGetMassFunction()
         {
             DataService ds = new DataService();
-            int[] array = { 4, 8, 8, 9, 6, 5, 3, 2, 9, 7, 7, 7 };
+            int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 1, 2, 1, 2 };
             int res = ds.Calculate(array);
-            int wait = 3072;
+            int wait = 105;
             Assert.AreEqual(res, wait);
         }
     }

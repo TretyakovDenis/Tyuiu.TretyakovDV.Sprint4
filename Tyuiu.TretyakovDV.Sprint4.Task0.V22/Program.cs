@@ -12,7 +12,7 @@ namespace Tyuiu.TretyakovDV.Sprint4.Task0.V22
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            Console.Title = "Спринт #3 | Выполнил: Третьяков Д.В. | ПКТб-23-1";
+            Console.Title = "Спринт #4 | Выполнил: Третьяков Д.В. | ПКТб-23-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
             Console.WriteLine("* Тема: Создание итогового решения по спринту                             *");
