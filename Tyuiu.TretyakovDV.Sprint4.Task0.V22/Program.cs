@@ -34,8 +34,6 @@ namespace Tyuiu.TretyakovDV.Sprint4.Task0.V22
             Console.WriteLine("*РЕЗУЛЬТАТ:                                                               *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine(res);
-            
-            Console.WriteLine(s);
 
             Console.ReadKey();
 
