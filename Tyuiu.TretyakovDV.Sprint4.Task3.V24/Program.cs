@@ -11,7 +11,7 @@ namespace Tyuiu.TretyakovDV.Sprint4.Task3.V24
     {
         static void Main(string[] args)
         {
-            Random rnd = new Random();
+
             DataService ds = new DataService();
             Console.Title = "Спринт #4 | Выполнил: Третьяков Д.В. | ПКТб-23-1";
             Console.WriteLine("***************************************************************************");
